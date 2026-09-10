@@ -1,0 +1,555 @@
+- repo: alt_p11
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-alt1
+  status: newest
+  summary: Google Search, Google Site Search, Google News from the terminal
+  maintainers:
+    - obirvalger@altlinux.org
+  licenses:
+    - GPL-3.0
+  categories:
+    - Networking/Other
+- repo: altsisyphus
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-alt1
+  status: newest
+  summary: Google Search, Google Site Search, Google News from the terminal
+  maintainers:
+    - obirvalger@altlinux.org
+  licenses:
+    - GPL-3.0
+  categories:
+    - Networking/Other
+- repo: aur
+  srcname: googler
+  binname: googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  summary: Google from the command-line
+  maintainers:
+    - ramen@aur
+  licenses:
+    - GPL3
+- repo: aur
+  srcname: googler-git
+  binname: googler-git
+  visiblename: googler-git
+  version: 4.3.2.r27.g8231da1
+  origversion: 4.3.2.r27.g8231da1-1
+  status: rolling
+  summary: Google from the command-line
+  maintainers:
+    - ramen@aur
+  licenses:
+    - GPL3
+- repo: chocolatey
+  binname: googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: null
+  status: outdated
+  summary: Google from the terminal.
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 3.7.1
+  origversion: 3.7.1-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: epel_8
+  srcname: googler
+  visiblename: googler
+  version: "4.2"
+  origversion: 4.2-1.el8
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-6.fc39
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-8.fc40
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-9.fc41
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-11.fc42
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-12.fc43
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-13.fc44
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-14.fc45
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: mageia_10
+  subrepo: core/release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-3.mga10
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPLv3+
+  categories:
+    - Networking/WWW
+- repo: mageia_9
+  subrepo: core/release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-2.mga9
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPLv3+
+  categories:
+    - Networking/WWW
+- repo: mageia_cauldron
+  subrepo: core/release
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-3.mga10
+  status: outdated
+  summary: Access google search, google site search, google news from the terminal
+  licenses:
+    - GPLv3+
+  categories:
+    - Networking/WWW
+- repo: nix_stable_24_05
+  srcname: googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: null
+  status: outdated
+  summary: Google Search, Google Site Search, Google News from the terminal
+  maintainers:
+    - koral@mailoo.org
+    - brightone@protonmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_24_11
+  srcname: googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: null
+  status: outdated
+  summary: Google Search, Google Site Search, Google News from the terminal
+  maintainers:
+    - koral@mailoo.org
+    - brightone@protonmail.com
+  licenses:
+    - GPL-3.0-or-later
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-bp155.1.7
+  status: outdated
+  summary: Google Search, Google Site Search, Google News from the terminal
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Web/Utilities
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-bp156.2.1
+  status: outdated
+  summary: Google Search, Google Site Search, Google News from the terminal
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Web/Utilities
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1.7
+  status: newest
+  summary: Google Search, Google Site Search, Google News from the terminal
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Networking/Web/Utilities
+- repo: pardus_21
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 3.7.1
+  origversion: 3.7.1-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: network/googler
+  visiblename: network/googler
+  version: 4.3.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - d.zlatanidis@gmail.com
+  categories:
+    - network
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: "4.0"
+  origversion: 4.0-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: "3.5"
+  origversion: 3.5-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: "4.0"
+  origversion: 4.0-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1build1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1build1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc

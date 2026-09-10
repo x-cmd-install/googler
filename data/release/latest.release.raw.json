@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 45556,
       "digest": null,
-      "download_count": 2558,
+      "download_count": 2560,
       "created_at": "2021-01-21T08:41:33Z",
       "updated_at": "2021-01-21T08:41:33Z",
       "browser_download_url": "https://github.com/jarun/googler/releases/download/v4.3.2/googler_4.3.2-1_debian10.amd64.deb"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 45552,
       "digest": null,
-      "download_count": 1927,
+      "download_count": 1928,
       "created_at": "2021-01-21T08:41:34Z",
       "updated_at": "2021-01-21T08:41:35Z",
       "browser_download_url": "https://github.com/jarun/googler/releases/download/v4.3.2/googler_4.3.2-1_ubuntu20.04.amd64.deb"

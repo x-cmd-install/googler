@@ -1,5 +1,5 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: ubuntu_24_04
+  subrepo: noble/universe
   srcname: googler
   binnames:
     - googler
@@ -10,47 +10,9 @@
   maintainers:
     - szlin@debian.org
   categories:
-    - misc
-- repo: aur
-  srcname: googler
-  binname: googler
-  visiblename: googler
-  version: 4.3.13
-  origversion: 4.3.13-1
-  status: newest
-  summary: Google from the command-line
-  maintainers:
-    - ramen@aur
-  licenses:
-    - GPL3
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: googler
-  binnames:
-    - googler
-  visiblename: googler
-  version: 3.7.1
-  origversion: 3.7.1-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: googler
-  binnames:
-    - googler
-  visiblename: googler
-  version: 4.3.2
-  origversion: 4.3.2-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: raspbian_oldstable
-  subrepo: main
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: googler
   binnames:
     - googler
@@ -61,7 +23,59 @@
   maintainers:
     - szlin@debian.org
   categories:
-    - misc
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1build1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1build1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1build1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
 - repo: alt_p11
   srcname: googler
   binnames:
@@ -92,19 +106,18 @@
     - GPL-3.0
   categories:
     - Networking/Other
-- repo: raspbian_stable
-  subrepo: main
+- repo: aur
   srcname: googler
-  binnames:
-    - googler
+  binname: googler
   visiblename: googler
   version: 4.3.13
   origversion: 4.3.13-1
   status: newest
+  summary: Google from the command-line
   maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
+    - ramen@aur
+  licenses:
+    - GPL3
 - repo: aur
   srcname: googler-git
   binname: googler-git
@@ -413,6 +426,71 @@
     - szlin@debian.org
   categories:
     - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 3.7.1
+  origversion: 3.7.1-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.2
+  origversion: 4.3.2-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: googler
+  binnames:
+    - googler
+  visiblename: googler
+  version: 4.3.13
+  origversion: 4.3.13-1
+  status: newest
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
 - repo: slackbuilds
   srcname: network/googler
   visiblename: network/googler
@@ -458,71 +536,6 @@
   version: 4.3.2
   origversion: 4.3.2-1
   status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: googler
-  binnames:
-    - googler
-  visiblename: googler
-  version: 4.3.13
-  origversion: 4.3.13-1
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: googler
-  binnames:
-    - googler
-  visiblename: googler
-  version: 4.3.13
-  origversion: 4.3.13-1
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: googler
-  binnames:
-    - googler
-  visiblename: googler
-  version: 4.3.13
-  origversion: 4.3.13-1
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: googler
-  binnames:
-    - googler
-  visiblename: googler
-  version: 4.3.13
-  origversion: 4.3.13-1build1
-  status: newest
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: googler
-  binnames:
-    - googler
-  visiblename: googler
-  version: 4.3.13
-  origversion: 4.3.13-1build1
-  status: newest
   maintainers:
     - szlin@debian.org
   categories:
